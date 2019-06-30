@@ -1218,6 +1218,11 @@ input, select, textarea {
 				padding: 3rem 2rem;
 			}
 
+			.resume {
+				position: relative;
+				top: 25px;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1226,12 +1231,25 @@ input, select, textarea {
 				padding: 2rem 1rem;
 			}
 
+			.resume {
+				position: relative;
+				top: 20px;
+				margin: 0;
+			}
+			
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
 				padding: 1rem;
+			}
+
+			.resume {
+				position: relative;
+				top: 20px;
+				margin: 0;
 			}
 
 		}
