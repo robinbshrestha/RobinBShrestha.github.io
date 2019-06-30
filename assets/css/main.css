@@ -1220,7 +1220,8 @@ input, select, textarea {
 
 			.resume {
 				position: relative;
-				top: 25px;
+				top: 7px;
+				margin:	0;
 			}
 
 		}
@@ -1454,6 +1455,11 @@ input, select, textarea {
 
 			#header .content p br {
 				display: none;
+			}
+
+			.resume {
+				position: relative;
+				top: 20px;
 			}
 
 		}
